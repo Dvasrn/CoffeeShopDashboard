@@ -1,0 +1,218 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(29, 36, 51, 0.8);
+  display: flex;
+}
+.dashboardTitle {
+  border-right: 1px solid rgb(40, 49, 65);
+}
+.titleFlex {
+  display: flex;
+  border-bottom: 1px solid rgb(40, 49, 65);
+  width: 320px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cupImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.appName {
+  font-size: 30px;
+  color: white;
+}
+.dashboardColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.dashboard {
+  width: 210px;
+  height: 60px;
+  color: rgb(149, 160, 177);
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+}
+.typeFlex {
+  display: flex;
+  width: 230px;
+  gap: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
+.titleNameImg {
+  width: 40px;
+  height: 40px;
+}
+.titleName {
+  font-size: 24px;
+  color: rgb(149, 160, 177);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  height: 80px;
+  width: 87.45vw;
+  border-bottom: 1px solid rgb(40, 49, 65);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.menu {
+  width: 40px;
+  height: 40px;
+}
+.imgFlex {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+  height: 80px;
+  gap: 10px;
+}
+.profileFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profileName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.profileImgBorder {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(49, 59, 76);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileImg {
+  width: 60px;
+  height: 60px;
+}
+
+.mainBody {
+  background-color: rgb(17, 25, 40, 0.8);
+  width: 87.45vw;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  width: 85.45vw;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgb(40, 49, 65);
+  border-radius: 20px;
+  width: 500px;
+  height: 180px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.numSize {
+  font-size: 30px;
+}
+.fontSize {
+  font-size: 20px;
+}
+.transformIcon {
+  transform: rotate(90deg);
+  width: 40px;
+  height: 40px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.calendarWidth {
+  width: 85.45vw;
+}
+.calendar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(49, 59, 76, 0.8);
+  border-radius: 10px;
+}
+.Week {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17, 25, 40, 0.8);
+  border-radius: 10px;
+  width: 90px;
+  height: 50px;
+  font-size: 20px;
+}
+.monthAndYear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 50px;
+  font-size: 20px;
+  color: rgb(126, 140, 160);
+}
+.infoBox {
+  width: 85.45vw;
+  height: 500px;
+  border: 1px solid rgb(40, 49, 65);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 40px;
+}
+.orders {
+  color: white;
+  font-size: 40px;
+}
+.store {
+  color: rgb(126, 140, 160);
+  font-size: 25px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.storeFlex {
+  display: flex;
+  width: 82vw;
+  margin-top: 40px;
+}
+.Customer {
+  color: rgb(126, 140, 160);
+  width: 300px;
+  font-size: 20px;
+}
+.storeTypes {
+  display: flex;
+  justify-content: space-around;
+  width: 66vw;
+}
+.types {
+  color: rgb(126, 140, 160);
+  font-size: 20px;
+}
