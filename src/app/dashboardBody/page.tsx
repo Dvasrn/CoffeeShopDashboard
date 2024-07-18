@@ -16,59 +16,59 @@ export default function DashboardBody({
   return (
     <div>
       <div className={style.body}>
-        <DashboardTitle />
-        <div className={style.navbar}>
-          <div className={style.dashboard}>Dashboard</div>
-          <div className={style.dashboardColumn}>
-            <Link
-              href="/dashboard"
-              className={`flex items-center gap-3 rounded-lg px-3 py-2  bg-white${
-                pathName !== "/dashboard"
-                  ? "text-muted-foreground"
-                  : "text-primary bg-muted"
-              } text-muted-foreground transition-all hover:text-primary`}
-            >
-              <Home className="h-4 w-4" />
-              Dashboard
-            </Link>
-            <Link
-              href="/orders"
-              className={`flex items-center gap-3 rounded-lg px-3 py-2 ${
-                pathName !== "/orders"
-                  ? "text-muted-foreground"
-                  : "text-primary bg-muted"
-              } text-muted-foreground transition-all hover:text-primary`}
-            >
-              <ShoppingCart className="h-4 w-4" />
-              Orders
-            </Link>
-            <Link
-              href="/products"
-              className={`flex items-center gap-3 rounded-lg px-3 py-2 ${
-                pathName !== "/products"
-                  ? "text-muted-foreground"
-                  : "text-primary bg-muted"
-              } text-muted-foreground transition-all hover:text-primary`}
-            >
-              <Package className="h-4 w-4" />
-              Products
-            </Link>
-            <Link
-              href="/users"
-              className={`flex items-center gap-3 rounded-lg px-3 py-2 ${
-                pathName !== "/users"
-                  ? "text-muted-foreground"
-                  : "text-primary bg-muted"
-              } text-muted-foreground transition-all hover:text-primary`}
-            >
-              <Users className="h-4 w-4" />
-              Customers
-            </Link>
+        <div className={style.dashboardTitle}>
+          <div className={style.navbar}>
+            <DashboardTitle />
+            <div className={style.dashboard}>Dashboard</div>
+            <div className={style.dashboardColumn}>
+              <Link
+                href="/dashboard"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2  bg-white${
+                  pathName !== "/dashboard"
+                    ? "text-muted-foreground"
+                    : "text-primary bg-muted"
+                } text-muted-foreground transition-all hover:text-primary`}
+              >
+                <Home className="h-4 w-4" />
+                Dashboard
+              </Link>
+              <Link
+                href="/orders"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${
+                  pathName !== "/orders"
+                    ? "text-muted-foreground"
+                    : "text-primary bg-muted"
+                } text-muted-foreground transition-all hover:text-primary`}
+              >
+                <ShoppingCart className="h-4 w-4" />
+                Orders
+              </Link>
+              <Link
+                href="/products"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${
+                  pathName !== "/products"
+                    ? "text-muted-foreground"
+                    : "text-primary bg-muted"
+                } text-muted-foreground transition-all hover:text-primary`}
+              >
+                <Package className="h-4 w-4" />
+                Products
+              </Link>
+              <Link
+                href="/users"
+                className={`flex items-center gap-3 rounded-lg px-3 py-2 ${
+                  pathName !== "/users"
+                    ? "text-muted-foreground"
+                    : "text-primary bg-muted"
+                } text-muted-foreground transition-all hover:text-primary`}
+              >
+                <Users className="h-4 w-4" />
+                Customers
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div>
         <div className={style.header}>
           <div>
             <img src="menu.png" className={style.menu} />
@@ -86,8 +86,8 @@ export default function DashboardBody({
         </div>
 
         <div className={style.mainBody}>{children}</div>
-      </div>
     </div>
+      </div>
   );
 }
 

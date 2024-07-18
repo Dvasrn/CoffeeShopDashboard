@@ -7,24 +7,6 @@
 .dashboardTitle {
   border-right: 1px solid rgb(40, 49, 65);
 }
-.titleFlex {
-  display: flex;
-  border-bottom: 1px solid rgb(40, 49, 65);
-  width: 320px;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cupImg {
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
-}
-.appName {
-  font-size: 30px;
-  color: white;
-}
 .navbar {
   display: flex;
   flex-direction: column;

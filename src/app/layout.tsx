@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <div>
           <DashboardBody>
-            <>123</>
+            <></>
           </DashboardBody>
         </div>
       </body>
