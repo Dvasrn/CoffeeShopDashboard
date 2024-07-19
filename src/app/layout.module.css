@@ -1,0 +1,46 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(29, 36, 51, 0.9);
+  display: flex;
+}
+.dashboardLeft {
+  border-right: 1px solid rgb(40, 49, 65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.dashboard {
+  width: 210px;
+  height: 60px;
+  color: rgb(149, 160, 177);
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+}
+.typeFlex {
+  display: flex;
+  width: 230px;
+  gap: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
+.titleNameImg {
+  width: 40px;
+  height: 40px;
+}
+.titleName {
+  font-size: 24px;
+  color: rgb(149, 160, 177);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.children {
+  background-color: rgba(29, 36, 51, 0.1);
+  width: 87.45vw;
+  height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
