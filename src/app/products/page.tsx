@@ -1,9 +1,13 @@
 import React from "react";
+import Image from "next/image";
 
-type Props = {};
-
-const Product = (props: Props) => {
-  return <div className="flex justify-center items-center h-full w-full">Product</div>;
+const Product = () => {
+  return (
+    <div className="flex justify-center items-center h-full w-full">
+      <input 
+      type="file" placeholder="Product"></input>
+    </div>
+  );
 };
 
 export default Product;

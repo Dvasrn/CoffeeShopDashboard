@@ -7,6 +7,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   const pathName = usePathname();
+  console.log(pathName)
   return (
     <div className={style.navbar}>
       <Link
