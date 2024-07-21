@@ -1,6 +1,6 @@
 .header {
-  height: 80px;
-  width: 87.45vw;
+  height: 8vh;
+  width: 80vw;
   border-bottom: 1px solid rgb(40, 49, 65);
   display: flex;
   justify-content: space-between;

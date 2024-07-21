@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@hyrious/bun.lockb": "^0.0.3",
+    "axios": "^1.7.2",
     "cloudinary": "^2.3.0",
+    "formidable": "^3.5.1",
     "lucide-react": "^0.408.0",
     "next": "14.2.5",
     "next-cloudinary": "^6.6.2",

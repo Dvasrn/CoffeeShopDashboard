@@ -1,11 +1,26 @@
-import React from "react";
-import Image from "next/image";
+"use client";
 
-const Product = () => {
+import React from 'react';
+import { CldUploadWidget } from 'next-cloudinary';
+
+const Product: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-full w-full">
-      <input 
-      type="file" placeholder="Product"></input>
+      <CldUploadWidget
+        uploadPreset="your_upload_preset" // зөв uploadPreset тохиргоо
+        signatureEndpoint="/api/upload"
+      >
+        {({ open }) => {
+          return (
+            <button
+              className="bg-indigo-500 rounded py-2 px-4 mb-4 text-white"
+              onClick={() => open()}
+            >
+              Upload Image
+            </button>
+          );
+        }}
+      </CldUploadWidget>
     </div>
   );
 };

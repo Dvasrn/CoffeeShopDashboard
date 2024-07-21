@@ -1,11 +1,8 @@
-.dashboardTitle {
-    border-right: 1px solid rgb(40, 49, 65);
-  }
   .titleFlex {
     display: flex;
     border-bottom: 1px solid rgb(40, 49, 65);
-    width: 320px;
-    height: 80px;
+    width: 20vw;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;

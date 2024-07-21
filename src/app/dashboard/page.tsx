@@ -5,7 +5,7 @@ type Props = {};
 
 const Dashboard = (props: Props) => {
   return (
-    <div>
+    <div className={style.body}>
       <div className={style.boxFlex}>
         <div className={style.box}>
           <div className={style.flex}>

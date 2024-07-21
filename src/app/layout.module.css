@@ -3,9 +3,14 @@
   height: 100vh;
   background-color: rgb(29, 36, 51, 0.9);
   display: flex;
+  margin: 0px;
+  position: absolute;
+  left: 0px;
 }
 .dashboardLeft {
   border-right: 1px solid rgb(40, 49, 65);
+  width: 20vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,8 +43,8 @@
 }
 .children {
   background-color: rgba(29, 36, 51, 0.1);
-  width: 87.45vw;
-  height: 94vh;
+  width: 80vw;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   align-items: center;
